@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #254dff;
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  gap: 6px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.logout-btn {
+  background-color: white;
+  color: #254dff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.welcome-box {
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffcc00;
+  border-radius: 10px;
+  animation: fadeInUser 0.5s ease;
+  color: #ffcc00;
+  font-weight: bold;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 6px rgba(255, 204, 0, 0.4);
+}
+
+.welcome-box span {
+  color: #fff;
+}
+
+@keyframes fadeInUser {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

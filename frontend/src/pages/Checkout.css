@@ -1,0 +1,63 @@
+.checkout-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.order-summary {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.order-summary ul {
+  padding-left: 20px;
+}
+
+.shipping-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.shipping-form textarea,
+.shipping-form input,
+.shipping-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.card-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.shipping-form button {
+  background-color: #254dff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.shipping-form button:hover {
+  background-color: #1e40ff;
+}
