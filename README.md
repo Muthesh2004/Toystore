@@ -35,22 +35,6 @@ place orders with payment options like **UPI** and **Cash on Delivery (COD)**. U
 
 ---
 
-## 📂 Project Structure
-toystore/
-│
-├── backend/ # Node.js + Express (optional)
-│ ├── models/ # Mongoose models (toys, users)
-│ ├── routes/ # API routes
-│ └── server.js # Main backend server file
-│
-└── frontend/ # React.js frontend
-├── src/
-│ ├── components/ # Reusable components (Navbar, ToyCard, etc.)
-│ ├── pages/ # Pages (Home, Cart, Login, Success)
-│ ├── redux/ # Redux store and slices
-│ ├── App.js # Main app component
-│ └── index.js # React entry point
-└── package.json # Frontend dependencies
 
 STEPS ON HOW TO RUN THE WEBSITE !!
 
@@ -58,16 +42,25 @@ STEPS ON HOW TO RUN THE WEBSITE !!
 
 bash
 cd frontend
+
 npm install
+
 npm start
+
+
 
 Your React app will run on http://localhost:3000.
 
 
 2. Run Backend
 bash
+
 cd backend
+
 npm install
+
 npm start
+
+
 
 Backend will run on http://localhost:5000.
